@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+:root {
+  /** Dark theme surface colors */
+  --color-surface-a0: #121212;
+  --color-surface-a10: #282828;
+  --color-surface-a20: #3f3f3f;
+  --color-surface-a30: #575757;
+  --color-surface-a40: #717171;
+  --color-surface-a50: #8b8b8b;
+
+  /** Dark theme Text color  */
+  --color-text-white: #d1d1d1;
+  --color-text-blue: #6170ff;
+  --color-text-warning: #FFD64F;
+}
+
+.bg-primary {
+  background-color: var(--color-surface-a0);
+}
+
+.bg-secondary {
+  background-color: var(--color-surface-a10);
+}
+
+.bg-subtle {
+  background-color: var(--color-surface-a20);
+}
+
+.text-white {
+  color: var(--color-text-white);
+}
+
+.text-blue {
+  color: var(--color-text-blue);
+}
+
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.alert-warning {
+  background-color: var(--color-surface-a30);
+  color: var(--color-text-warning);
+}
